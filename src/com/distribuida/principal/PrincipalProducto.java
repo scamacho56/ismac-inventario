@@ -23,15 +23,14 @@ public class PrincipalProducto {
 		
 		//CRUD:CREATE,READ,UPDATE,DELETE
 		Producto producto = new Producto(0, "Producto0003", "variados",  9.04,  10 );
-		//productoDAO.add(producto);
 		
 		//up
 		Producto producto2 = new Producto(4, "Producto0005", "floreado",  7.5,  23 );
-		productoDAO.up(producto2);
+		//productoDAO.up(producto2);
 		
 				
 				//del
-				productoDAO.del(1);
+				//productoDAO.del(1);
 				
 				//findOne
 				
